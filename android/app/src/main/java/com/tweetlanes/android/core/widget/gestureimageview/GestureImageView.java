@@ -619,10 +619,10 @@ public class GestureImageView extends ImageView {
 
     @Override
     public int[] onCreateDrawableState(int extraSpace) {
-        if (mStrict) {
+/*        if (mStrict) {
             throw new UnsupportedOperationException("Not supported");
         }
-        return super.onCreateDrawableState(extraSpace);
+*/        return super.onCreateDrawableState(extraSpace);
     }
 
     @Override
